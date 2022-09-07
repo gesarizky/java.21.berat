@@ -13,7 +13,7 @@ public class Framesuh extends javax.swing.JFrame {
     /**
      * Creates new form Framejarak
      */
-    public Framesuh() {
+    public Frameberat() {
         initComponents();
     }
 
@@ -150,26 +150,26 @@ public class Framesuh extends javax.swing.JFrame {
 
     private void prosesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_prosesActionPerformed
         // TODO add your handling code here:
-        String teksm = inm.getText();
-        double inputm = Double.parseDouble(teksm);
-        double hasilkm = inputm / 1000;
-        String outputkm = String.valueOf(hasilkm);
-        outkm.setText(outputkm);
-        double hasilhm = inputm / 100;
-        String outputhm = String.valueOf(hasilhm);
-        outhm.setText(outputhm);
-        double hasildam = inputm / 10;
-        String outputdam = String.valueOf(hasildam);
-        outdam.setText(outputdam);
-        double hasildm = inputm * 10;
-        String outputdm = String.valueOf(hasildm);
-        outdm.setText(outputdm);
-        double hasilcm = inputm * 100;
-        String outputcm = String.valueOf(hasilcm);
-        outcm.setText(outputcm);
-        double hasilmm = inputm * 1000;
-        String outputmm = String.valueOf(hasilmm);
-        outmm.setText(outputmm);
+        String teksg = ing.getText();
+        double inputg = Double.parseDouble(teksg);
+        double hasilkg = inputg / 1000;
+        String outputkg = String.valueOf(hasilkg);
+        outkg.setText(outputkg);
+        double hasilhg = inputg / 100;
+        String outputhg = String.valueOf(hasilhg);
+        outhg.setText(outputhg);
+        double hasildag = inputg / 10;
+        String outputdag = String.valueOf(hasildag);
+        outdag.setText(outputdag);
+        double hasildg = inputg * 10;
+        String outputdg = String.valueOf(hasildg);
+        outdg.setText(outputdg);
+        double hasilcg = inputg * 100;
+        String outputcg = String.valueOf(hasilcg);
+        outcg.setText(outputcg);
+        double hasilmg = inputg * 1000;
+        String outputmg = String.valueOf(hasilmg);
+        outmg.setText(outputmg);
     }//GEN-LAST:event_prosesActionPerformed
 
     /**
@@ -208,7 +208,7 @@ public class Framesuh extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JTextField inm;
+    private javax.swing.JTextField ing;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -217,12 +217,12 @@ public class Framesuh extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
-    private javax.swing.JTextField outcm;
-    private javax.swing.JTextField outdam;
-    private javax.swing.JTextField outdm;
-    private javax.swing.JTextField outhm;
-    private javax.swing.JTextField outkm;
-    private javax.swing.JTextField outmm;
+    private javax.swing.JTextField outcg;
+    private javax.swing.JTextField outdag;
+    private javax.swing.JTextField outdg;
+    private javax.swing.JTextField outhg;
+    private javax.swing.JTextField outkg;
+    private javax.swing.JTextField outmg;
     private javax.swing.JButton proses;
     // End of variables declaration//GEN-END:variables
 }
